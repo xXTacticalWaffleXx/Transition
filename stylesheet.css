@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: mono;
+    src: url(./fonts/IBMPlexMono-ExtraLight.ttf);
+}
+
+:root {
+    --text-color: lightgrey;
+    --text-color-alt: grey;
+
+    --font-family: Montserrat;
+    --font-family-alt: mono;
+}
+
+body {
+    background-color: white;
+    color: var(--text-color);
+
+    font-size: large;
+    font-family: var(--font-family);
+
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+h1 {
+    color: var(--text-color-alt);
+    text-align: center;
+
+    font-family: var(--font-family-alt);
+}
+
+h2{
+    text-align: justify;
+}
+
+img {
+    height: 40%;
+    width: auto;
+    align-items: center;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+a:hover, a:active {
+	color: var(--text-color-alt);
+}
+
+.navbar {
+    padding-left: 0%;
+    padding-right: 0%;
+    display:block;
+    font-size: 50px;
+}
+.navbar span {
+    display:block;
+    float:right;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 10;
+    width: 100%;
+    color: var(--text-color);
+    text-align: center;
+}
