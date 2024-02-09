@@ -79,3 +79,11 @@ a:hover, a:active {
     color: var(--text-color);
     text-align: center;
 }
+
+.main_title {
+    text-align: center;
+    color: var(--text-color-alt);
+
+    font-family: var(--font-family-alt);
+    font-size: 75;
+}
